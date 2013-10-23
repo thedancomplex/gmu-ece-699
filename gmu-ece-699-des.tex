@@ -1,0 +1,645 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% Yisong Yue's resume
+%%   - based off work by Michael DeCorte 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%
+%% The following code sets up the document formatting
+%%
+
+%this assumes that res_yy.sty is in some path
+\documentstyle[hyperref, margin, line]{res_yy}
+
+%\usepackage[a4paper,vmargin={2mm,2mm},hmargin={8mm,8mm}]{geometry}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+%addtolength{\voffset}{-0.30in}
+%\addtolength{\textwidth}{0.5in} \addtolength{\textheight}{0.5in}
+
+%\addtolength{\voffset}{-0.60in}
+\addtolength{\voffset}{-0.7in}
+\addtolength{\textwidth}{1.0in} \addtolength{\textheight}{1.50in}
+
+\renewcommand{\namefont}{\LARGE\emph}
+
+
+
+%%
+%% The following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+\def\CSharp{{\rm C\raise.5ex\hbox{\small \#}}}
+% 'st' 'nd' 'rd' 'th' superscripts for numbers
+\def\first{{\raise.5ex\hbox{\small st}}}
+\def\second{{\raise.5ex\hbox{\small nd}}}
+\def\third{{\raise.5ex\hbox{\small rd}}}
+\def\fourth{{\raise.5ex\hbox{\small th}}}
+
+
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+%the name in big fonts at the top of resume
+%this is left aligned
+\name{Daniel M. Lofaro Ph.D \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \tiny{2013-07-30}}
+
+
+%this is right aligned
+\address{
+website: http://danLofaro.com \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ email: dan@danLofaro.com
+}
+
+\begin{resume}
+
+
+
+%%
+%% This section of code is inelegant, but I'm too lazy to fix it
+%%
+
+\section{\textsc{Research Interest}}
+My research interests lie primarily in Humanoid Robotics, Control Systems and Software, Cloud Robotics, Human Robot Interaction (HRI), Human Robot Interfacing, Brain Machine Interfacing (BMI), and Full Body Locomotion/Manipulation.
+
+
+
+\section{\textsc{Education}}
+
+\textbf{Drexel University} \hfill 2008 - 2013 \\
+PhD in Electrical and Computer Engineering in Control Systems and \hfill Advisor: Dr. Paul Oh \\
+Robotics. Dissertation Title: \\
+\textit{Uniﬁed Algorithmic Framework for High Degree of Freedom Complex\\
+Systems and Humanoid Robots}\\
+\newline
+\textbf{Drexel University} \hfill 2006 - 2008 \\ 
+Masters in Electrical and Computer Engineering in Control Systems \hfill Graduated with Honors\\
+Thesis Title: \textit{Control Design to Reduce the Effects of Torsional Resonance\\
+in Coupled Systems}\\
+\newline
+\textbf{Drexel University} \hfill 2003 - 2008 \\ 
+Bachelor of Science in Electrical and Computer Engineering in Control Systems \hfill Graduated Cum Laude and with Honors
+
+
+
+\section{\textsc{Fellowships and Awards}}
+
+
+
+\textbf{NSF-GRFP Honorable Mention} \hfill 2009 \\ 
+%Masters/Bachelor of Science in Electrical and Computer Engineering in Control Systems \hfill Graduated with Honors
+The program recognizes and supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics disciplines who are pursuing research-based master's and doctoral degrees in the U.S. and abroad. 
+\newline
+
+
+\textbf{NSF-EAPSI Fellow} \hfill 2008 \\
+%PhD Student in Electrical and Computer Engineering in Control Systems and Robotics \hfill Advisor: Dr. Paul Oh \\
+The primary goals of EAPSI are to introduce students to East Asia and Pacific science and engineering in the context of a research setting, and to help students initiate scientific relationships that will better enable future collaboration with foreign counterparts.
+\newline
+
+\textbf{Lester Kraus Award} \hfill 2008 \\ 
+%Masters/Bachelor of Science in Electrical and Computer Engineering in Control Systems \hfill Graduated with Honors
+Awarded to Electrical Engineering student who has shown the greatest promise of developing into a creative and socially responsible engineer.
+\newline
+
+\textbf{Dean's Fellowship} \hfill 2008 \\ 
+%Masters/Bachelor of Science in Electrical and Computer Engineering in Control Systems \hfill Graduated with Honors
+Non-need-based award for full-time graduate students designed to assist outstanding applicants.
+
+
+\section{\textsc{Programming}}
+\textbf{Proficient Languages:} C/C++, Python, MATLAB, Java,  C\#, LabView\\
+\textbf{Platforms and OS:} Linux, Windows\\
+\textbf{Computer Control Methods:} Real-Time, Inter-Process Communication, Network Based
+
+\section{\textsc{Lab Skills and Tools}}
+PCB Layout and Design, PCB Surface Mount Population, Soldering (Solder and Solder Paste) Use of: Oscilloscopes, Spectrum Analyzers, Function Generators, Volt-Ohm Meters, Amp Meters, Jigsaws, Band Saws, Routers, Drills, etc.  Carpentry skills include both metal and wood working.
+
+%%
+%% the meat of the resume starts now
+%%
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\section{\textsc{Publications}}
+
+\let\thefootnote\relax\footnotetext{*Under Peer-Review}
+\employer{\textbf{*Reliable Software for Humanoid Robots
+}}
+\dates{RAM 2013}
+\begin{position}
+Authors: Dantam, N.; Lofaro, D.; Hereid, A.; Oh, P.; Ames, A.; Stilman, M.\\
+IEEE Robotics and Automation Magazine
+\end{position}
+
+\employer{\textbf{*Linear and Non-linear Mitigation of Torsional Resonance...
+}}
+\dates{ACC 2013}
+\begin{position}
+Authors: Lofaro, D.; Chmielewski, T; 
+IEEE American Control Conference 
+\end{position}
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{Multi-Process Architecture for Robust Control the Hubo2+ Robot}}
+\dates{TePRA 2013}
+\begin{position}
+Authors: Grey, M.; Dantam, N.; Stilman, M.; Lofaro, D.\\
+IEEE International Conference on Technologies for Practical Robot Applications 
+\end{position}
+
+
+
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{Toward A User-Guided Manipulation Framework for High-DOF...}}
+\dates{TePRA 2013}
+\begin{position}
+Authors: Alunni, N.; Phillips-Graffin, C; Suay, H.; Lofaro, D.; Berenson, D.\\
+Chernova, S; Lindeman, R; Oh, P.;\\
+IEEE International Conference on Technologies for Practical Robot Applications 
+\end{position}
+
+
+
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{Humanoid Pitching at a Major League Baseball Game}}
+\dates{Humanoids 2012}
+\begin{position}
+Authors: Lofaro, D.; Sun, C.; Oh, P.;\\
+Humanoid Robots (Humanoids), 2012 10th IEEE-RAS International Conference 
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{A n-dimensional Convex Hull Approach for Fault Detection}}
+\dates{ICCAS 2012}
+\begin{position}
+Authors: Lofaro, D.; Lynch, K. Oh, P.;\\
+International Conference on Control, Automation and Systems
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{Design of Collision-Free Trajectories with Sparse Reachable Maps}}
+\dates{IROS 2012}
+\begin{position}
+Authors: Lofaro, D.; Ellenberg, D. Oh, P.; Oh, JH.;\\
+Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Conference
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{Humanoid Throws Inaugural Pitch at Major League Baseball Game}}
+\dates{URAI 2012}
+\begin{position}
+Authors: Lofaro, D.;Oh, P.;\\
+International Conference on Ubiquitous Robotics and Ambient Intelligence
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+
+
+
+%\employer{\textbf{Towards the Design of Humanoids as Interactive Musical Participants}}
+\employer{\textbf{Design of Humanoids as Interactive Musical Participants}}
+\dates{IASTED 2011}
+\begin{position}
+Authors: Lofaro, D.; Grunberg, D. Oh, P.; Kim, Y.; Oh, J.;\\
+International Association of Science and Technology (IASTED), 2011\\ 
+International Conference on Robotics
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+\employer{\textbf{Robot Audition and Beat Identification in Noisy Environments}}
+\dates{IROS 2011}
+\begin{position}
+Authors: Grunberg, D.; Lofaro, D. ; Oh, J.; Kim, Y;\\
+Intelligent Robots and Systems (IROS), 2011 IEEE/RSJ International Conference
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+\employer{\textbf{Towards a musically-aware humanoid for interactive music...}}
+\dates{EURASIP 2011}
+\begin{position}
+Authors: Kim, Y.; Lofaro, D; Batulaa, A; Grunberg, D;\\
+EURASIP Journal on Audio, Speech, and Music Processing
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+
+
+
+
+\employer{\textbf{Visual Beat Tracking: A Novel Approach to Tempo Tracking...}}
+\dates{Humanoids 2010}
+\begin{position}
+Authors: Lofaro, D.; Oh, P.; Oh, J.; Kim, Y.; \\
+Humanoid Robots (Humanoids), 2010 10th IEEE-RAS International Conference 
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+\employer{\textbf{Interactive Games With Humanoids: Playing With Jaemi Hubo}}
+\dates{Humanoids 2010}
+\begin{position}
+Authors: Lofaro, D.; Ellenberg, R.; Oh, P.;\\
+Humanoid Robots (Humanoids), 2010 10th IEEE-RAS International Conference 
+%Proving the validity of scalable humanoid robots in music recognition and dance research.
+\end{position}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\employer{\textbf{Developing Humanoids for Musical Interaction}}
+\dates{IROS 2010}
+\begin{position}
+Authors: Kim, Y.; Batula, A.; Grunberg, D.; Lofaro, D. ; Oh, J.;\\
+%Teaching robots to recognize the presence of music via multiple sensory multiplexing. 
+Intelligent Robots and Systems (IROS), 2010 IEEE/RSJ International Conference
+\end{position}
+
+
+
+\employer{\textbf{Mechatronics Education: From Paper Design to Product Prototype...}}
+\dates{FIRA 2009}
+\begin{position}
+Authors: Lofaro, D.; Le, T.; and Oh, P.; \\
+Progress in Robotics, ser. Communications in Computer and Information Science
+%A mechatronics class designed to teach students the industrial design cycle through hands on prototyping and simulations using commercially available parts.\\
+%Website: http://www.pages.drexel.edu/~dml46/publications/FIRA2009/
+\end{position}
+
+\employer{\textbf{Control Design to Reduce the Effects of Torsional Resonance in...}}
+\dates{MS Thesis 2008}
+\begin{position}
+Author: Lofaro, D. \\
+Masters Thesis, Drexel University Department of Electrical and Computer Engineering
+%Creating faster servo loops in coupled systems by reducing the effects of torsional resonance via the use of linear and non-linear control methods.\\
+%Website: http://www.pages.drexel.edu/~dml46/Thesis.html
+\end{position}
+
+%\small{* $\rightarrow$ Awaiting Acceptance}
+
+
+%%
+%% We use the same formatting for projects as for work experience
+%% Shown below is the formatting used previously
+%%
+%%  \begin{formatb}
+%%    \employer{l}\title{r}\\
+%%    \location{l}\dates{r}\\
+%%    \body\\
+%%  \end{formatb}
+%%
+%% 
+%%  Note that \location is now being used for non-location information
+%%
+
+
+\begin{formatb}  
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+
+
+
+\section{\textsc{Work Experience}}
+
+\employer{\textbf{Drexel Autonomous Systems Lab}}
+\title{Research Assistant}
+\location{Philadelphia, PA}
+\dates{April 2008 to Present}
+\begin{position}
+Researching Complex Control Systems and Robotics. Daniel's dissertation topic is end-effector velocity control for bipedal robots, also known as throwing.  Primary care taker of the full-size humanoid robot Jaemi Hubo.
+\end{position}
+
+
+\employer{\textbf{DARPA Robotics Challenge Track A Team: DRC-Hubo}}
+\title{Control System Engineer}
+\location{Philadelphia, PA}
+\dates{July 2012 to Present}
+\begin{position}
+I work directly with Dmitry Berenson at WPI on the valve opening/closing task of the challenge. 
+In collaboration with Mike Stilman and Neil Dantam at Gerogia Tech I lead the developed of the needed open-source, Linux based, BSD licensed controller for humanoid robots. 
+Our software is the primary control system for the DRC-Hubo team and is currently being used by MIT, WPI, Purdue, Ohio State, Swarthmore College, Georgia Tech, and Drexel University. 
+Team Website: \textit{http://www.drc-hubo.com}
+\end{position}
+
+
+
+\employer{\textbf{Dragonfly Incorporated}}
+\title{Engineer}
+\location{Philadelphia, PA}
+\dates{April 2011 to Present}
+\begin{position}
+Testing and modeling of linear actuators for dual rotor unmanned aerial vehicles.
+\end{position}
+
+
+
+
+\employer{\textbf{Drexel University}}
+\title{Teaching Assistant}
+\location{Philadelphia, PA}
+\dates{April 2008 to Present}
+\begin{position}
+Assist professor with electrical engineering lab courses as well as organizing and maintaing Senior Design for the electrical and computer engineering dept.
+\end{position}
+
+
+
+\employer{\textbf{IEEE (ICRA 2012)}}
+\title{Intl conf origination, web des}
+\location{Piscataway, NJ}
+\dates{May 2011 to July 2012}
+\begin{position}
+Design and maintain events and website for the International Conference on Robotics and Automation.
+\end{position}
+
+
+
+
+\employer{\textbf{NATO (ASI-2012)}}
+\title{Technical/Workshop Chair}
+\location{Cesme, Turkey}
+\dates{August 2009 to November 2010}
+\begin{position}
+Organize and maintain 6 workshops for an international audience with participation from 23 countries
+\end{position}
+
+
+\employer{\textbf{FIRST Robotics}}
+\title{Mentor, Judge, and Volunteer}
+\location{Villanova, PA}
+\dates{March 2006 to June 2010}
+\begin{position}
+Coach/mentors for the all girls high school, Agnes Irwin School (Bryn Mawr, PA), FIRST Robotics team and Philadelphia Regional Competition volunteer.
+\end{position}
+
+
+\employer{\textbf{Moog Component Group}}
+\title{Assistant Design Engineer}
+\location{Springfield, PA}
+\dates{August 2005 to March 2006}
+\begin{position}
+Temperature response testing - Error analysis on positional and rotational actuators - Fault detection circuit design and implementation for positional and rotator actuators - PCB trace verification, Trained in MIL-SPEC soldering.
+\end{position}
+
+\employer{\textbf{Evaporated Coatings Inc.}}
+\title{Vacuum Deposited Thin Film Assistant Design Engineer}
+\location{Willow Grove, PA}
+\dates{August 2004 to March 2005}
+\begin{position}
+Design and implementation of vacuum deposited tin films for the control of optical, thermal and electrical surface
+properties, design using computer simulations.  Implementation via vacuum deposition using electron beam gun.
+\end{position}
+
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\section{\textsc{Invited Talks and Demonstrations}}
+
+\employer{\textbf{University of Pennsylvania - Philadelphia, PA}}
+\dates{Spring 2013}
+\begin{position}
+Talk Title: DARPA Robot Challenge: The DRC-Hubo Team - Where we are and what we are doing.
+\end{position}
+
+\employer{\textbf{Columbia University - New York, NY}}
+\dates{Fall 2012}
+\begin{position}
+Demonstration: Hands on demonstration of the Hubo2+ humanoid robot.  Following the demonstration there was a in depth Q\&A session with the graduate and undergraduate students in the college of engineering. 
+\end{position}
+
+\employer{\textbf{Maker Faire - New York, NY}}
+\dates{Fall 2012}
+\begin{position}
+Demonstration: Showed the inner-workings of Hubo the humanoid robot to the do it yourself (DYI) community. 
+\end{position}
+
+
+
+\employer{\textbf{ASME - Drexel University - Philadelphia, PA}}
+\dates{Summer 2012}
+\begin{position}
+Talk Title: Humanoid Pitching at a Major League Baseball Game: Challenges, Approach, Implementation and Lessons Learned
+\end{position}
+
+
+
+\employer{\textbf{Philadelphia Phillies and Philly Science Festival - Philadelphia, PA}}
+\dates{Spring 2012}
+\begin{position}
+Demonstration: Developed a system to make Hubo become the first full-size humanoid robot to successfully throw the inaugural pitch at a Major League Baseball game, Philadelphia Phillies vs. Chicago Cubs.
+45,196 spectators according to the USA Today.\\
+Video: http://danlofaro.com/projects/philliesGame/
+\end{position}
+
+
+
+\employer{\textbf{Friends of the Free Library - Philadelphia, PA}}
+\dates{Spring 2012}
+\begin{position}
+Talk Title: Humanoid Robots, they are fun!\\ 
+Included live hands-on demonstration of a miniature humanoid. \\ 
+Purpose what to get the inner city students exposed to advanced robotics.
+\end{position}
+
+
+
+
+
+\employer{\textbf{Sugartown Elementary School - Sugartown, PA}}
+\dates{Winter 2011}
+\begin{position}
+Demonstration: Hands on demonstration and interactive sessions of ground vehicles,\\
+pick and place robots and miniature humanoids for elementary school students.
+\end{position}
+
+\employer{\textbf{Philcon 2011 - New Jersey, NJ}}
+\dates{Fall 2011}
+\begin{position}
+Talk Title: Humanoid robots, a step in the right direction?\\
+About Philcon: Started in 1936, Philcon features cutting-edge programming about\\
+literature, art, television, film, anime, comics, science, gaming, costuming and\\
+cosplay, music, and other topics of interest to fans of sci-fi, fantasy, and horror.
+\end{position}
+
+
+\employer{\textbf{State Senator Invitation - 5$^{th}$ Annual Carole Smith}}
+\dates{Fall 2011}
+\begin{position}
+\textbf{Technology Symposium - Philadelphia, PA}\\
+Talk Title: Humanoid Robots, Past, Present, Future.  5$^{th}$ Annual\\ 
+Carole I Smith Technology Symposium. Presented by State 
+\\Senator LeAnna M. Washington, Hosted by Temple University
+\end{position}
+
+
+
+
+
+
+\employer{\textbf{Daegu Institute of Science and Technology - Daegu, South Korea}}
+\dates{Spring 2011}
+\begin{position}
+Talk Title: Interactive Games With Humanoids.  
+\end{position}
+
+
+
+\employer{\textbf{Korean Advanced Institute of Science and Technology (KAIST)}}
+\dates{Spring 2011}
+\begin{position}
+\textbf{Daejeon, South Korea}\\
+Talk Title: Interactive musical participation with humanoid robots through the use\\
+of novel musical tempo and beat tracking techniques in the absence of auditory cues.
+\end{position}
+
+
+
+\employer{\textbf{Hanyang University - Seoul, South Korea}}
+\dates{Spring 2011}
+\begin{position}
+Talk Title: Visual Beat Tracking
+\end{position}
+
+
+
+\employer{\textbf{MY Robotics Club, Bryn Mawr College - Bryn Mawr, PA}}
+\dates{Winter 2010}
+\begin{position}
+Talk Title: Humanoid Robots, Past, Present, Future
+\end{position}
+
+
+\employer{\textbf{Philadelphia Please Touch Museum - Philadelphia, PA}}
+\dates{Spring 2009}
+\begin{position}
+Demonstration: Live hands on demonstration for children and adults ages 3 to 99.
+\end{position}
+
+
+
+
+
+
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\section{\textsc{Extracurricular Activities}}
+
+\employer{\textbf{IEEE-Humanoids 2012 Student Activity Board Event Organizer}}
+\dates{2012}
+\begin{position}
+Designed and implemented student socials and activities for the IEEE-Humanoids 2012 conference in Osaka, Japan.  
+This included organizing daily group lunch and dinners for students, Karaoke night, a day trip to Kyoto, and a Student Banquette.
+My over all purpose for these events is to ``\textit{create an atmosphere conducive for students to get to know each other in a non-academic setting.}''
+Website: http://humanoids2012.danlofaro.com/
+
+\end{position}
+
+\employer{\textbf{IEEE-ICRA 2012 Student Activity Board Event Organizer}}
+\dates{2012}
+\begin{position}
+Designed and implemented student socials and activities for the IEEE-ICRA 2012 conference in St. Paul, MN.  
+This included a student dinner with a comedian as well as daily events and activities.    
+My over all purpose for these events is to ``\textit{create an atmosphere conducive for students to get to know each other in a non-academic setting.}''
+Website: http://icra2012.org/student/
+\end{position}
+
+\employer{\textbf{Senior Design Robot Competition}}
+\dates{2009 - 2011}
+\begin{position}
+Designed, implemented, and coached a robot competition for senior students in the Drexel University Senior Design class.  The competition consisted of multiple teams and multiple robots.  Each robot was less then 1.0m x 1.0m x 1.0m and less then 10kg.
+\end{position}
+
+\employer{\textbf{Indoor Aerial Robotics Competition}}
+\dates{2008 - 2011}
+\begin{position}
+Designed and implemented the Indoor Aerial Robotics Competition from 2008-2011.  The IARC was formed in 2005 by Dr. Paul Oh in parallel with the Congressional mandate that requires 30\% of all U.S. deep-strike aircraft to be capable of autonomous navigation by 2015. To keep in line with this mandate, the competition was revised to increase the difficulty each year with the goal of having a ``backpack-able'' vehicle that flies autonomously inside buildings by 2015. 
+\end{position}
+
+\employer{\textbf{CoE Engineers Week Annual Egg Drop Competition}}
+\dates{2007 - 2011}
+\begin{position}
+The Egg Drop competition challenges student, faculty, and professional staff teams to create a recyclable contraption that will protect a large Grade A egg from a free fall of 40 feet or from it gliding down a steel zip line and crashes into a target more than 30 feet below. Scoring is based on a mathematical formula that calculates weight and speed.
+\end{position}
+
+\employer{\textbf{IEEE Student Branch Technical Chair}}
+\dates{2006 - 2008}
+\begin{position}
+Drexel University's IEEE Branch Technical Chair.  Designed events and activities for IEEE student branch.
+\end{position}
+
+\employer{\textbf{Eita-Kappa-Nu Popsicle Stick Bridge Contest}}
+\dates{2008 - 2009}
+\begin{position}
+The goal of this competition is to build the lease expensive bridge that can span a 12 inches gap, have a width of at least 3 inches, and hold a load at its center using only the materials listed below. The functioning bridge with the lowest materials cost wins. Please note that this competition is geared towards middle school students to teach them some of the basics of engineering.
+\end{position}
+
+\employer{\textbf{Biannual IEEE Lego Robot Competition}}
+\dates{2006 - 2008}
+\begin{position}
+Design and implementation of the bi-annual Lego robot competition.  The competition has the expressed goals of enforcing the knowledge the electrical and computer engineering students have learned in class including robot design, logic and autonomous systems.
+\end{position}
+
+\employer{\textbf{NAVY SeaPerch Challenge (regional and national competition)}}
+\dates{2009-2011}
+\begin{position}
+Judge for high school student robot competition.  The SeaPerch Program provides students with the opportunity to learn about robotics, engineering, science, and mathematics (STEM) while building an underwater ROV as part of a science and engineering technology curriculum. Throughout the project, students will learn engineering concepts, problem solving, teamwork, and technical applications.
+\end{position}
+
+
+
+
+
+
+
+
+
+\end{resume}
+\end{document}
